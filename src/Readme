@@ -1,0 +1,7 @@
+Pagination:
+  1.Take some random cdn links.
+  2.Perform fetch operation using useEffect.
+  3.Arrange items in form of cards.
+  4.use Slice segrigate each page according to number of elements
+    e.g; slice(page*4-4, page*4) for displaying only 4 pages
+  5.Control actions of switching pages using any sort of sliders.  

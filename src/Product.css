@@ -1,0 +1,35 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2px;
+    margin: 2px;
+}
+
+.product{
+    padding: 2px;
+    height: 150px;
+    text-align: center;
+    font-size: 4px;
+    margin: 8px;
+    background-color: bisque;
+}
+.product>img{
+    object-fit: cover;
+    height: 90%;
+}
+.page{
+    margin: 4px;
+    padding: 4px;
+    cursor: pointer;
+
+    >span{
+        padding: 2px;
+        border: 1px solid  black;
+        border-radius: 20%;
+    }
+    
+}
